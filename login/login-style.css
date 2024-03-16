@@ -1,0 +1,77 @@
+.input-wrap {
+  display: flex;
+  flex-direction: column;
+  min-width: 350px;  
+  background-color: white;
+  padding: 30px;
+  border-radius: 10px;
+  text-align: left; 
+  margin-top: 40px; 
+  border: 2px solid #6e12cb;
+  box-shadow: 3px 3px 5px 2px rgba(110,18,203,.2);  
+}
+
+.input-wrap input {
+  border-color: #6e12cb;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  font-weight: bolder;  
+  color: rgb(6, 150, 218);
+}
+
+.input-wrap input:focus {
+  color: rgb(6, 150, 218);
+}
+ 
+.input-wrap label {
+  font-weight: 600;
+  color: #6e12cb;
+  font-family: cursive;
+}
+
+.input-wrap h1 {
+  text-align: center;
+  color: rgb(6, 150, 218);
+  font-family: cursive;
+}
+
+.forn-wrapper {  
+  display: flex;
+  justify-content: center;  
+}
+
+a {
+  text-decoration: none;
+}
+
+#submit {
+  background-color: #6e12cb;
+  color: rgb(106, 225, 255);
+}
+
+.sign_up_footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 15px;
+  margin-bottom: 0px;  
+}
+
+@media (min-height: 768px) {
+  .footer {
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+  }
+}
+
+.spacer {  
+  margin-bottom: 85px;
+}
+
+#verifySent {
+  font-size: x-large;
+  color: green;
+  font-weight: 700;
+  margin-bottom: 0px;
+}

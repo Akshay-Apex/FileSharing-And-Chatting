@@ -1,0 +1,142 @@
+body {
+  height: 100vh;  
+  background-color: black;  
+  margin: 0;
+  padding: 0;  
+}
+
+.wrapper-container {  
+  background-color: rgb(39, 52, 67);  
+  height: 100vh;
+  margin: 0;
+  text-align: left;  
+  color: white;
+}
+
+.head {
+  display: flex;
+  flex-direction: row;
+  background-color: #6e12cb;  
+}
+
+.leftHead {
+  padding: 5px;  
+  padding-left: 15px;
+  width: 40%;
+}
+
+.rightHead {  
+  border-left: 1px solid white;
+  padding: 5px;    
+  padding-left: 15px;
+  width: 60%;
+}
+
+.body {
+  display: flex;
+  flex-direction: row;
+}
+
+.leftBody {    
+  display: flex;
+  flex-grow: 1;
+  flex-direction: column;
+  width: 40%;
+  text-align: center;  
+  border-right: 1px solid black;
+  border-top: 2px solid black;
+  border-bottom: 2px solid black;   
+}
+
+.search {  
+  background-color: #6212cb;
+}
+
+.search input {  
+  width: 90%;   
+  margin-top: 20px; 
+  margin-bottom: 20px;
+  text-align: left;
+}
+
+.rightBody {
+  display: flex;
+  flex-direction: column;
+  border-left: 3px solid black;
+  border-top: 2px solid black;
+  border-bottom: 2px solid black;
+  width: 60%;
+}
+
+.messages {
+  overflow-y: scroll;   
+  padding: 25px;   
+  text-align: center;
+}
+
+.contacts {
+  overflow-y: scroll;
+  padding: 25px;   
+}
+
+.typeMessage {
+  position: fixed;  
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  width: 60%;
+  bottom: 0;
+  background-color: #12afcb;
+  padding: 15px;  
+  border-top: 3px solid black;    
+}
+
+.typeMessage input {  
+  width: 70%;  
+}
+
+input , button {
+  border-radius: 8px;
+  height: 35px;
+  font-weight: 600;     
+}
+
+.head img {
+  width: 50px;
+}
+
+.btn-group {
+  float: right;
+  margin: 5px;  
+}
+
+.dropdown-menu {
+  background-color: rgb(39, 52, 67);
+  border: 1px solid white;  
+}
+
+.dropdown-item {
+  color: white;
+  font-weight: 400;
+}
+
+#btnPosition {  
+  float: right;  
+}
+
+#searchMessages {
+  float: right;
+  margin-top: 5px;
+  margin-right: 10px;
+  width: 35%;
+}
+
+input::placeholder {
+  color: #333;
+  font-style: italic;   
+}
+
+#logoutBtn {
+  font-weight: 900;  
+}
+
