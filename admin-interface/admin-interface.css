@@ -61,6 +61,7 @@ body {
 .btnDash {
   text-align: left;
   padding: 10px;
+  padding-left: 20px;
   border: none;
   background-color: rgb(39, 52, 67);
   color: white;
@@ -80,7 +81,7 @@ body {
   flex-direction: column;
   padding-top: 10px;
 }
-
+ 
 .messageContainer {
   padding: 30px;  
   font-weight: 700;
